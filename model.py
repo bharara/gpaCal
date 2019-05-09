@@ -24,7 +24,7 @@ def predict_AggToGrade (avg, agg):
 def train_SemiToAgg (n):
 	model = LinearRegression ()
 
-	data, agg = selectPartialAgg ( n)
+	data, agg = selectPartialAgg (n)
 
 	x_train, x_test, y_train, y_test = train_test_split(data, agg, test_size=0.2, random_state=randint(0,9))
 	model.fit(x_train, y_train)

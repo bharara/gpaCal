@@ -8,7 +8,6 @@ __pycache__/
 
 *.csv
 *.xlsx
-*.db
 
 # Distribution / packaging
 .Python
